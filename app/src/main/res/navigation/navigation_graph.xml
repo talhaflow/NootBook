@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/anaSayfaFragment">
+
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.talhakara.notebook.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_notEklemeFragment"
+            app:destination="@id/notEklemeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notEklemeFragment"
+        android:name="com.talhakara.notebook.NotEklemeFragment"
+        android:label="fragment_not_ekleme"
+        tools:layout="@layout/fragment_not_ekleme" >
+        <action
+            android:id="@+id/action_notEklemeFragment_to_anaSayfaFragment"
+            app:destination="@id/anaSayfaFragment" />
+    </fragment>
+</navigation>

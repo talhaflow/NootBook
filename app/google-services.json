@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1054612478103",
+    "firebase_url": "https://notebook-4a389-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "notebook-4a389",
+    "storage_bucket": "notebook-4a389.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054612478103:android:a7c17687e50006b2da31d2",
+        "android_client_info": {
+          "package_name": "com.talhakara.notebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054612478103-t2paebr0t61j4gti3orkgahreehos49h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5Ak5R5t_-uD-AsTYEGojtrqhO5Qw87Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054612478103-t2paebr0t61j4gti3orkgahreehos49h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
