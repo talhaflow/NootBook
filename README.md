@@ -19,11 +19,9 @@ Bu, Firebase ve Kotlin kullanılarak geliştirilen basit bir not defteri uygulam
 
 ## Özellikler
 
-- Kullanıcı kaydı ve oturum açma
 - Notları görüntüleme: Tüm notları listeleyebilme
 - Not ekleyebilme: Başlık ve içerik ile yeni not ekleme
-- Not düzenleme: Varolan bir notu başlık ve içerik üzerinde değiştirme
-- Not silme: Varolan bir notu silme
+
 
 ## Kurulum
 
